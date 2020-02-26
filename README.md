@@ -16,7 +16,7 @@ Requierments ?
 
 How to build ?
 ---------------
-  1. git clone image_stiching /dst
+  1. git clone https://github.com/morkonrad/object_detection/ /dst
   2. cd /dst
   3. mkdir build 
   4. cd build
