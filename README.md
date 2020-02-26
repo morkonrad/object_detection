@@ -12,7 +12,7 @@ Requierments ?
 3. OpenCL 2.x headers and lib, support for CPU and GPU
 3. GPU driver with OpenCL and SVM_FINE_GRAIN_BUFFER support
 4. For unit-tests CTest
-5. OpenCV (modules calib3d,GUI,image,core)
+5. OpenCV 4.x (modules calib3d,GUI,image,core)
 
 How to build ?
 ---------------
