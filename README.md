@@ -38,3 +38,9 @@ cd build/SIFT/Release
 ./demo_coopcl_sift.exe -v ../../../data/basketball.mp4 -f 0.5 "executes on CPU and GPU 50% CPU and 50% GPU"
 
 for more options call: ./demo_coopcl_sift.exe -h
+
+References
+------------
+1)  A framework for accelerating local feature extraction with OpenCL on multi-core CPUs and co-processors. Journal of real-time image processing. K.Moren and D.Göhringer https://dl.acm.org/doi/abs/10.1007/s11554-016-0576-0
+
+2) clSURF https://github.com/perhaad/clsurf/tree/master/CLSource 
