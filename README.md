@@ -1,9 +1,9 @@
 # Object_detection
 What is this ? 
 --------------
-Object detection application with SIFT/SURF algorithms. Demo_app uses two images, match features in one image with features from other and findHomography from calib3d module to find known objects in a complex image. 
+Object detection application. Demo_app uses two input images. It matches features in one image with features from other image and finds Homography from calib3d module. Finally finds-overlay known objects. 
 
-Current imp. uses two algorithms (SIFT/SURF) implemented with coopcl driver that enables async. and parallel CPU/GPU execution. 
+Current imp. includes two algorithms (SIFT/SURF data-parallel(OpenCL), optimized for GPU/CPU) implemented with coopcl driver that enables cooperative, async. and parallel CPU/GPU execution. 
 
 Requierments ?
 ---------------
@@ -38,4 +38,3 @@ cd build/SIFT/Release
 ./demo_coopcl_sift.exe -v ../../../data/basketball.mp4 -f 0.5 "executes on CPU and GPU 50% CPU and 50% GPU"
 
 for more options call: ./demo_coopcl_sift.exe -h
-
